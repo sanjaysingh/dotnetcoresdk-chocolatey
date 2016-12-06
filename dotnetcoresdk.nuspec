@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>dotnetcoresdk</id>
-    <version>1.0.0-RC2</version>
+    <version>1.0.1</version>
     <title>.Net Core SDK</title>
     <authors>Microsoft</authors>
     <owners>Sanjay Singh</owners>
@@ -17,5 +17,8 @@
     This package only supports x64 architecture.</description>
     <summary>The Microsoft .NET Core SDK.</summary>
     <tags>dotnet .net .netcore dotnetcore SDK admin</tags>
+    <dependencies>
+      <dependency id="dotnetcore-runtime" version="1.0.1"/>
+    </dependencies>
   </metadata>
 </package>
