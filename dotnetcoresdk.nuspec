@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>dotnetcoresdk</id>
-    <version>1.0.1</version>
+    <version>1.0.4</version>
     <title>.Net Core SDK</title>
     <authors>Microsoft</authors>
     <owners>Sanjay Singh</owners>
@@ -11,14 +11,12 @@
     <licenseUrl>http://msdn.microsoft.com/en-US/cc300389.aspx</licenseUrl>
     <projectUrl>https://www.microsoft.com/net/core#windows</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>.NET Core is a set of runtime, library and compiler components. Microsoft uses these components in various configurations for device and cloud workloads. You can do the same for your app or service. 
-    Managed runtimes make code easy to write and guarantee safe execution. .NET Core manages memory with a garbage collector, compiles your code with a JIT compiler or ahead of time with .NET Native.
-    You can create .NET Core apps that run on multiple OSes and CPUs. .NET Core runs on Windows. Ports are in progress for Linux, OS X and FreeBSD, as is integration with the LLVM compiler.
-    This package only supports x64 architecture.</description>
+    <description>
+        This package installs the 64-bit version of the .NET Core SDK 1.0.4, which includes versions 1.0.5 and 1.1.1 of the .NET Core runtimes.
+    </description>
     <summary>The Microsoft .NET Core SDK.</summary>
     <tags>dotnet .net .netcore dotnetcore SDK admin</tags>
     <dependencies>
-      <dependency id="dotnetcore-runtime" version="1.0.1"/>
     </dependencies>
   </metadata>
 </package>

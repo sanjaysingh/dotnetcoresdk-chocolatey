@@ -2,9 +2,9 @@ $script           = $MyInvocation.MyCommand.Definition
 $packageArgs      = @{
     packageName     = 'DotNetCoreSDK'
     fileType        = 'exe'
-    url             = 'https://go.microsoft.com/fwlink/?LinkID=827524'
+    url             = 'https://download.microsoft.com/download/B/9/F/B9F1AF57-C14A-4670-9973-CDF47209B5BF/dotnet-dev-win-x64.1.0.4.exe'
     softwareName    = 'DotNetCoreSDK*'
-    checksum        = '27DFA0EA2D2AAA80F76D77D8747E9E2C1178F40592C3650FBD3BCFB512144132'
+    checksum        = 'a8b2a928e66eac6ccb939916d55d2d181b8f1433fc1fbf0d894713e8c86c7303'
     checksumType    = 'sha256'
     silentArgs      = '/quiet'
     validExitCodes  = @(0, 3010, 1641)
